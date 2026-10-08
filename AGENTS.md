@@ -29,12 +29,20 @@ Run `pnpm principles:check` before completing a change.
 - Make changes on a branch.
 - Discuss outcomes and tradeoffs in customer or user language.
 - For important or required questions, use the harness's Ask User Question tool.
-- **Critical:** Before saving durable memory in any form, agents must get explicit user approval to save the exact wording. Save only the requested content. Do not add unrequested hedges, qualifications, or restrictions.
 - Use the principles to resolve technical choices.
 - Humans decide product outcomes. They do not read code.
 - Write code to a principal engineer's standard.
 - Arrange an independent agent review before finalizing a branch.
 - Resolve its findings and run the required checks.
+
+## Memory
+
+**Critical:** This rule applies to every agent and harness.
+Before saving memory in any form, get the user's explicit approval of the exact wording.
+Save only the requested content.
+Do not add unrequested hedges, qualifications, or restrictions.
+If the user did not explicitly request a memory, do not block work to ask for memory approval.
+You can mention a possible memory in passing.
 
 ## Code review
 
