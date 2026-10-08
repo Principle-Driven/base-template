@@ -3,9 +3,11 @@
   "private": true,
   "packageManager": "pnpm@10.30.0",
   "scripts": {
+    "prepare": "husky",
     "principles:check": "pdd check"
   },
   "devDependencies": {
-    "@principle-driven/cli": "0.2.0"
+    "@principle-driven/cli": "0.2.0",
+    "husky": "9.1.7"
   }
 }
