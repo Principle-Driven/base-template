@@ -34,6 +34,14 @@ Run `pnpm principles:check` before completing a change.
 - Arrange an independent agent review before completing the work.
 - Resolve its findings and run the required checks.
 
+## Code review
+
+If auto mode is enabled, ask the user once for permission to run reviews for the current session.
+If available, use the harness's built-in review function.
+Request a full branch review against its base branch.
+If the CLI supports this function, start the review through the CLI.
+Example For Codex: `codex exec review --base <base-branch>`.
+
 ## Icebox
 
 - Record discussed, unscheduled ideas in `docs/icebox/<slug>.md`.
