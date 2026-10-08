@@ -46,6 +46,7 @@ mise exec -- prosecheck check --semantic off --message "Reject unclear commit me
 | --- | --- |
 | `AGENTS.md` | Agent instructions and the design principle index. |
 | `CLAUDE.md` | Imports of the agent instructions and this README. |
+| `docs/code-review.md` | Code review standards. |
 | `docs/principles/` | Principle definitions, the change protocol, and a template. |
 | `docs/icebox/` | Unscheduled idea notes, their format, and their log. |
 | `scripts/` | The macOS setup script. |

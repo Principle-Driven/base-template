@@ -32,14 +32,16 @@ Run `pnpm principles:check` before completing a change.
 - Use the principles to resolve technical choices.
 - Humans decide product outcomes. They do not read code.
 - Write code to a principal engineer's standard.
-- Arrange an independent agent review before completing the work.
+- Arrange an independent agent review before finalizing a branch.
 - Resolve its findings and run the required checks.
 
 ## Code review
 
+- Follow the [review standards](docs/code-review.md).
 - If auto mode is enabled, ask the user once for permission to run reviews for the current session.
 - If available, use the harness's built-in review function.
 - Request a full branch review against its base branch.
+- Give the reviewing agent the intended outcome in its steer.
 - If the CLI supports this function, start the review through the CLI.
 - Example For Codex: `codex exec review --base <base-branch>`.
 
