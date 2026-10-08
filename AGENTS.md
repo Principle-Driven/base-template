@@ -29,6 +29,7 @@ Run `pnpm principles:check` before completing a change.
 - Make changes on a branch.
 - Discuss outcomes and tradeoffs in customer or user language.
 - For important or required questions, use the harness's Ask User Question tool.
+- **Critical:** Before saving durable memory in any form, agents must get explicit user approval to save the exact wording. Save only the requested content. Do not add unrequested hedges, qualifications, or restrictions.
 - Use the principles to resolve technical choices.
 - Humans decide product outcomes. They do not read code.
 - Write code to a principal engineer's standard.
