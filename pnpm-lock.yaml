@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@principle-driven/cli':
+        specifier: 0.2.0
+        version: 0.2.0
+
+packages:
+
+  '@principle-driven/cli@0.2.0':
+    resolution: {integrity: sha512-fqN5wR2abJzY6kDClIxhY1s8BWfzy8kLkUSZMjuADwMgWU2GP/+WB3iKX8msFMwmDUv2AuQUBZbVXeENleZ4+w==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+snapshots:
+
+  '@principle-driven/cli@0.2.0': {}

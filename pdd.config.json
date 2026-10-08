@@ -1,0 +1,7 @@
+{
+  "prefix": "DP",
+  "principlesDir": "docs/principles",
+  "agentFiles": ["AGENTS.md"],
+  "acceptedRiskPrinciple": "DP-06@v1",
+  "ignore": []
+}
