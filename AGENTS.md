@@ -28,6 +28,7 @@ Run `pnpm principles:check` before completing a change.
 - Keep changes small and easy to review.
 - Make changes on a branch.
 - Discuss outcomes and tradeoffs in customer or user language.
+- For important or required questions, use the harness's Ask User Question tool.
 - Use the principles to resolve technical choices.
 - Humans decide product outcomes. They do not read code.
 - Write code to a principal engineer's standard.
@@ -36,11 +37,11 @@ Run `pnpm principles:check` before completing a change.
 
 ## Code review
 
-If auto mode is enabled, ask the user once for permission to run reviews for the current session.
-If available, use the harness's built-in review function.
-Request a full branch review against its base branch.
-If the CLI supports this function, start the review through the CLI.
-Example For Codex: `codex exec review --base <base-branch>`.
+- If auto mode is enabled, ask the user once for permission to run reviews for the current session.
+- If available, use the harness's built-in review function.
+- Request a full branch review against its base branch.
+- If the CLI supports this function, start the review through the CLI.
+- Example For Codex: `codex exec review --base <base-branch>`.
 
 ## Icebox
 
