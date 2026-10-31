@@ -1,59 +1,44 @@
-# Starter
+# PDD base template
 
-## Set up on macOS
+Start a new project with a complete [Principle Driven Development](https://github.com/Principle-Driven/pdd) standard.
+A project made from this template starts with:
 
-From the project directory, run:
+- design principles and their change protocol,
+- agent instructions and code review standards,
+- a commit message check,
+- a principle check on each pull request.
 
-```bash
-bash scripts/setup.sh
-```
+The project does not need to find these standards by trial and error.
 
-The script installs [mise](https://mise.jdx.dev/getting-started.html) if needed.
-Then it installs the pinned Node.js, pnpm, [prosecheck](https://github.com/DheerG/prosecheck), and project dependencies.
-Dependency installation also installs the Git hooks.
-It adds mise activation to your zsh configuration if absent.
-Open a new terminal after setup.
+## Start a project
 
-## PDD
+1. On GitHub, select **Use this template** to create your repository.
+   Do not clone this repository. A clone keeps the template history and remote.
+2. Clone your new repository.
+3. From the project directory, run:
 
-[PDD](https://github.com/Principle-Driven/pdd) is a project dependency. Use it through pnpm:
+   ```bash
+   bash scripts/setup.sh
+   ```
 
-```bash
-pnpm exec pdd catalog
-pnpm exec pdd list
-pnpm principles:check
-```
+The first setup asks for a project name and a one-line description.
+It writes your project README, removes the template files, and commits the result.
+If a coding agent opens the project first, the agent offers to do this setup.
 
-Design principles use the `DP` token prefix.
-Their definitions are in `docs/principles/`, with an index in `AGENTS.md`.
-GitHub checks principles on each pull request.
+[CONTRIBUTING.md](CONTRIBUTING.md) describes setup, commands, and the files that your project keeps.
 
-## Commit messages
+## What stays in the template
 
-Husky runs prosecheck on each commit message.
-The check uses local rules. It does not install or run a language model.
-Errors and warnings block the commit.
-
-To check a message manually, run:
-
-```bash
-mise exec -- prosecheck check --semantic off --message "Reject unclear commit messages"
-```
-
-## Files and directories
+Your project keeps everything except these files:
 
 | Path | Contents |
 | --- | --- |
-| `AGENTS.md` | Agent instructions and the design principle index. |
-| `CLAUDE.md` | Imports of the agent instructions and this README. |
-| `docs/code-review.md` | Code review standards. |
-| `docs/principles/` | Principle definitions, the change protocol, and a template. |
-| `docs/icebox/` | Unscheduled idea notes, their format, and their log. |
-| `scripts/` | The macOS setup script. |
-| `.husky/` | The Git hook that checks commit messages. |
-| `.prosecheck.json` | The shared commit message policy. |
-| `.github/workflows/` | Principle checks on every pull request. |
-| `mise.toml` | Pinned Node.js, pnpm, and prosecheck versions. |
-| `package.json` | Project dependencies and commands. |
-| `pnpm-lock.yaml` | The resolved dependency versions. |
-| `pdd.config.json` | The token prefix, principle directory, and agent index configuration. |
+| `README.md` | This description of the template. |
+| `LICENSE` | The template license. |
+| `.template/` | Your project's first README and the first-run step. |
+
+## License
+
+This template uses the [MIT No Attribution License](LICENSE).
+A project made from it does not need to credit this template or keep its license.
+Choose your project's license separately.
