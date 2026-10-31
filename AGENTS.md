@@ -42,6 +42,8 @@ Run `pnpm principles:check` before completing a change.
 - Write code to a principal engineer's standard.
 - Arrange an independent agent review before finalizing a branch.
 - Resolve its findings and run the required checks.
+- Repeat the full review until a round has no findings that need a change.
+- After ten rounds, stop and ask the user. Say whether your own decisions added complexity, or whether a recurring finding needs a principle.
 
 ## Memory
 
