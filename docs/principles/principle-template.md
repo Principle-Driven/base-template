@@ -4,7 +4,11 @@ Version: v1
 
 ## Rule
 
-[State the required choice. Include only the conditions and exceptions that change that choice.]
+[State the required choice. Include only the conditions that change that choice.]
+
+### Exceptions
+
+[Name each case that permits a different choice. State the choice that applies in that case. If no case applies, state that there are no exceptions.]
 
 ## Rationale
 
