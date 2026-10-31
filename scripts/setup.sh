@@ -14,10 +14,6 @@ mise install
 mise exec -- pnpm install --frozen-lockfile
 mise exec -- pnpm principles:check
 
-if [ -d .template ]; then
-  mise exec -- node .template/first-run.mjs "$@"
-fi
-
 zsh_config="${ZDOTDIR:-$HOME}/.zshrc"
 if ! grep -Fq 'mise activate zsh' "$zsh_config" 2>/dev/null; then
   cat >> "$zsh_config" <<'EOF'
@@ -25,6 +21,10 @@ if ! grep -Fq 'mise activate zsh' "$zsh_config" 2>/dev/null; then
 export PATH="$HOME/.local/bin:$PATH"
 eval "$(mise activate zsh)"
 EOF
+fi
+
+if [ -d .template ]; then
+  mise exec -- node .template/first-run.mjs "$@"
 fi
 
 printf '\nSetup complete. Open a new terminal, then run: pnpm exec pdd --help\n'

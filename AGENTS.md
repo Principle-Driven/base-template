@@ -7,10 +7,11 @@ Its Rule is authoritative. Rationale explains it, and Implications are examples.
 ## First run
 
 If the `.template/` directory exists, this project is not set up yet.
-Before other work, offer first-time setup to the user.
+An exception is the template maintainer's copy, where `git config --local --bool --get pdd.template-maintainer` prints `true`.
+In any other copy, offer the first run to the user before other work.
 Ask the user for the project name and a one-line description.
 Then run `bash scripts/setup.sh --name "<name>" --description "<description>"`.
-The setup removes this section.
+The first run removes this section.
 
 ## Principles
 
