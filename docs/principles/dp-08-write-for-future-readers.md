@@ -1,5 +1,5 @@
-# DP-14 — Write for future readers
-Token: DP-14
+# DP-08 — Write for future readers
+Token: DP-08
 Version: v1
 Source: https://principledriven.dev/principles/write-for-future-readers
 

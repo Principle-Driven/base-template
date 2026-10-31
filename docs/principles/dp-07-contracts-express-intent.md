@@ -1,5 +1,5 @@
-# DP-11 — Keep domain decisions in one place
-Token: DP-11
+# DP-07 — Keep domain decisions in one place
+Token: DP-07
 Version: v1
 Source: https://principledriven.dev/principles/contracts-express-intent
 

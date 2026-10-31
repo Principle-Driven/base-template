@@ -12,10 +12,10 @@ Its Rule is authoritative. Rationale explains it, and Implications are examples.
 - **DP-04@v2 — Avoid Sunk Cost Fallacy** — Keep future changes aligned with current requirements. → `docs/principles/dp-04-do-not-let-sunk-costs-decide.md`
 - **DP-05@v1 — Cite the rule, do not copy it** — Keep comments accurate by linking them to one versioned rule instead of repeating that rule across the codebase. → `docs/principles/dp-05-cite-dont-copy.md`
 - **DP-06@v1 — Make accepted risks explicit** — Show that a known risk is a deliberate trade, and state when the team must review it again. → `docs/principles/dp-06-mark-accepted-risks.md`
+- **DP-07@v1 — Keep domain decisions in one place** — Keep product decisions consistent by giving each domain rule one owner. → `docs/principles/dp-07-contracts-express-intent.md`
+- **DP-08@v1 — Write for future readers** — Make repository artifacts explain their current purpose, decisions, and evidence without the original conversation. → `docs/principles/dp-08-write-for-future-readers.md`
 - **DP-09@v1 — Borrow infrastructure and own domain behavior** — Use maintained packages for established technical problems and keep product decisions in your code. → `docs/principles/dp-09-borrow-infrastructure-own-domain-behavior.md`
 - **DP-10@v1 — Tests earn their cost** — Test a concrete failure at the least costly layer that gives sufficient new confidence. → `docs/principles/dp-10-tests-earn-their-cost.md`
-- **DP-11@v1 — Keep domain decisions in one place** — Keep product decisions consistent by giving each domain rule one owner. → `docs/principles/dp-11-contracts-express-intent.md`
-- **DP-14@v1 — Write for future readers** — Make repository artifacts explain their current purpose, decisions, and evidence without the original conversation. → `docs/principles/dp-14-write-for-future-readers.md`
 
 ## Principle changes
 
