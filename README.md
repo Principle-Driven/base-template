@@ -8,8 +8,8 @@ From the project directory, run:
 bash scripts/setup.sh
 ```
 
-The script installs [mise](https://mise.jdx.dev/getting-started.html) if needed, then installs the pinned Node.js, pnpm, and project dependencies.
-It installs [prosecheck](https://github.com/DheerG/prosecheck) if needed.
+The script installs [mise](https://mise.jdx.dev/getting-started.html) if needed.
+Then it installs the pinned Node.js, pnpm, [prosecheck](https://github.com/DheerG/prosecheck), and project dependencies.
 Dependency installation also installs the Git hooks.
 It adds mise activation to your zsh configuration if absent.
 Open a new terminal after setup.
@@ -53,7 +53,7 @@ mise exec -- prosecheck check --semantic off --message "Reject unclear commit me
 | `.husky/` | The Git hook that checks commit messages. |
 | `.prosecheck.json` | The shared commit message policy. |
 | `.github/workflows/` | Principle checks on every pull request. |
-| `mise.toml` | Pinned Node.js and pnpm versions. |
+| `mise.toml` | Pinned Node.js, pnpm, and prosecheck versions. |
 | `package.json` | Project dependencies and commands. |
 | `pnpm-lock.yaml` | The resolved dependency versions. |
 | `pdd.config.json` | The token prefix, principle directory, and agent index configuration. |

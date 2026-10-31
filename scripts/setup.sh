@@ -9,11 +9,7 @@ if ! command -v mise >/dev/null 2>&1; then
 fi
 
 mise trust mise.toml
-mise install node pnpm
-
-if ! command -v prosecheck >/dev/null 2>&1; then
-  curl -fsSL https://raw.githubusercontent.com/DheerG/prosecheck/main/install.sh | sh
-fi
+mise install
 
 mise exec -- pnpm install --frozen-lockfile
 mise exec -- pnpm principles:check
