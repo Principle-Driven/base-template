@@ -2,6 +2,8 @@
 
 This protocol governs principles adopted by this repository. A downloaded catalog example acquires authority only after local adoption.
 
+The principles that a repository contains when it is created are adopted. They do not need admission evidence. Later changes follow this protocol.
+
 ## Authority
 
 The Rule carries the judgment, including its binding conditions and exceptions. It appears first after the token and version headers.
