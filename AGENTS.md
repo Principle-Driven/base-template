@@ -1,8 +1,16 @@
 # Agent instructions
 
-Read [README.md](README.md) for setup, commands, and directory descriptions.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for setup, commands, and directory descriptions.
 Before making a covered decision, read the applicable principle file.
 Its Rule is authoritative. Rationale explains it, and Implications are examples.
+
+## First run
+
+If the `.template/` directory exists, this project is not set up yet.
+Before other work, offer first-time setup to the user.
+Ask the user for the project name and a one-line description.
+Then run `bash scripts/setup.sh --name "<name>" --description "<description>"`.
+The setup removes this section.
 
 ## Principles
 
